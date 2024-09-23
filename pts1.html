@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badan Layanan Umum Daerah</title>
+    <link rel="stylesheet" href="pts.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#" onclick="showHome()">Home</a>
+        <a href="#" onclick="showAbout()">Tentang Kami</a>
+    </div>
+
+    <!-- Konten Home -->
+    <div id="home" class="content">
+        <img src="logo blud.jpg" alt="Logo BLUD" width="150" style="display:block; margin:auto;">
+        <h1>Selamat Datang di Badan Layanan Umum Daerah</h1>
+        <h2> pengertian</h2>
+        <p>
+            Badan Layanan Umum Daerah atau disingkat BLUD adalah sistem yang diterapkan oleh satuan kerja perangkat daerah atau unit satuan kerja perangkat daerah pada satuan kerja perangkat daerah dalam memberikan pelayanan kepada masyarakat yang mempunyai fleksibilitas dalam pola pengelolaan keuangan sebagai pengecualian dari ketentuan Pengelolaan Keuangan Daerah pada umumnya.
+
+            BLUD merupakan bagian dari perangkat pemerintah daerah, dengan status hukum tidak terpisah dari pemerintah daerah. Berbeda dengan SKPD pada umumnya, pola pengelolaan keuangan BLUD memberikan fleksibilitas berupa keleluasaan untuk menerapkan praktik-praktik bisnis yang sehat untuk meningkatkan pelayanan kepada masyarakat, seperti pengecualian dari ketentuan pengelolaan keuangan daerah pada umumnya. Sebuah satuan kerja atau unit kerja dapat ditingkatkan statusnya sebagai BLUD.
+            
+            Contoh dari SKPD dengan status BLUD adalah Rumah Sakit Umum Daerah (RSUD). Unit kerja seperti puskesmas atau tempat rekreasi tidak tertutup kemungkinan ditingkatkan statusnya sebagai BLUD.
+        </p>
+        <h2>Sejarah Badan Layanan Umum Daerah</h2>
+        <p>
+            Konsep BLUD (Badan Layanan Umum Daerah) lahir dari reformasi sektor publik di Inggris pada tahun 1980-an. Saat itu, Perdana Menteri Margareth Thatcher membuat institusi publik yang lebih otonom dengan tata kelola seperti swasta. 
+Di Indonesia, BLUD mulai diterapkan pada beberapa unit kerja pemerintah daerah (pemda) sejak ditetapkannya Permendagri 61/2007. BLUD diterapkan pada unit kerja yang memberikan pelayanan langsung kepada masyarakat, seperti di bidang kesehatan, pendidikan, pariwisata, air minum, pengelolaan kawasan, dan pengelolaan dana khusus. 
+BLUD memiliki beberapa manfaat, di antaranya:
+Membiayai proyek mandiri tanpa harus menunggu alokasi anggaran dari pemerintah pusat atau daerah
+Mempercepat implementasi proyek yang krusial
+Meningkatkan pelayanan kepada masyarakat dengan menerapkan prinsip efisiensi dan produktivitas 
+Pendapatan BLUD dapat bersumber dari: Jasa layanan, Hibah, Hasil kerjasama dengan pihak lain, APBD, Lain-lain pendapatan BLUD yang sah. 
+        </p>
+
+        <!-- Form dengan Checkbox untuk Pilihan -->
+        <form id="feedbackForm" onsubmit="submitForm(event)">
+            <h3>Apakah Anda puas dengan layanan kami?</h3>
+            <label>
+                <input type="checkbox" name="puas" id="puas"> Puas
+            </label><br>
+            <label>
+                <input type="checkbox" name="tidakPuas" id="tidakPuas"> Tidak Puas
+            </label><br><br>
+            <input type="submit" value="Kirim">
+        </form>
+
+        <!-- Pesan Terima Kasih -->
+        <div id="thankYouMessage" class="thank-you" style="display: none;">
+            Terima kasih atas jawaban Anda!
+        </div>
+    </div>
+
+    <!-- Konten Tentang Kami -->
+    <div id="about" class="content" style="display: none;">
+        <h1>Tentang Kami</h1>
+        <p>
+            Badan Layanan Umum Daerah (BLUD) adalah konsep pengelolaan keuangan yang diterapkan oleh instansi pemerintah daerah di Indonesia, yang mengelola dana publik secara fleksibel, efisien, dan mandiri untuk meningkatkan pelayanan kepada masyarakat. BLUD dirancang agar unit-unit layanan pemerintah, seperti rumah sakit, puskesmas, atau lembaga lain yang memberikan layanan publik, memiliki otonomi lebih besar dalam mengelola anggaran dan operasional mereka. Berikut adalah informasi mendetail tentang BLUD dari waktu ke waktu:
+
+           <h2> 1. Pembentukan BLUD (Awal 2000-an)</h2>
+               Konsep BLUD diatur pertama kali melalui Undang-Undang No. 1 Tahun 2004 tentang Perbendaharaan Negara dan Peraturan Pemerintah No. 23 Tahun 2005 tentang Pengelolaan Keuangan Badan Layanan Umum (BLU). Peraturan ini memungkinkan pemerintah daerah untuk membentuk BLUD di berbagai sektor, terutama di sektor kesehatan dan pendidikan, guna meningkatkan efisiensi pengelolaan keuangan.
+            
+               BLUD dirancang agar unit kerja pemerintah daerah dapat mengelola keuangannya secara mandiri dengan tetap mengacu pada prinsip-prinsip akuntabilitas, transparansi, dan efisiensi. Tujuan awal dari pembentukan BLUD adalah memperbaiki kinerja layanan publik dengan memisahkan anggaran operasional dari birokrasi ketat pemerintah daerah.
+            
+            <h2>2. Pengembangan dan Implementasi BLUD di Sektor Kesehatan (2010-an)</h2> 
+               Dalam dekade 2010-an, banyak rumah sakit daerah dan puskesmas mulai diubah statusnya menjadi BLUD, terutama karena fleksibilitas yang ditawarkan oleh sistem ini. Puskesmas, misalnya, dapat mengelola pendapatan dari pelayanan secara langsung, tanpa harus menunggu dana dari APBD. Hal ini mempercepat proses pengadaan barang/jasa dan pembiayaan kegiatan operasional.
+            
+               Keunggulan lain dari BLUD adalah kemampuannya untuk mengelola sumber daya manusia secara lebih fleksibel, seperti memberikan insentif tambahan untuk tenaga medis dan non-medis berdasarkan kinerja. Ini membantu meningkatkan motivasi dan kualitas layanan.
+            
+            <h2> 3. Regulasi BLUD di Sektor Lain (Pertengahan 2010-an)</h2>
+               Setelah sukses di sektor kesehatan, konsep BLUD mulai diperluas ke sektor lain seperti pendidikan (sekolah tinggi atau perguruan tinggi daerah), layanan kebersihan, dan pengelolaan air. Setiap daerah memiliki kebijakan masing-masing dalam penerapan BLUD, tergantung pada prioritas pelayanan yang diinginkan.
+            
+               Perkembangan ini dipercepat dengan adanya Permendagri No. 61 Tahun 2007 tentang Pedoman Teknis Pengelolaan Keuangan BLUD. Peraturan ini memberikan panduan teknis lebih rinci bagi pemerintah daerah untuk mengelola unit-unit kerja mereka sebagai BLUD.
+            
+            <h2> 4. Tantangan dan Isu yang Muncul (Akhir 2010-an)</h2>
+               Meskipun BLUD memberikan banyak fleksibilitas, ada beberapa tantangan yang dihadapi dalam implementasinya. Salah satunya adalah masalah tata kelola yang masih terbatas pada beberapa daerah, di mana pengawasan dan akuntabilitas kadang tidak diterapkan dengan baik. Selain itu, beberapa BLUD menghadapi kendala dalam hal kapasitas manajemen, terutama dalam mengelola sumber daya keuangan secara mandiri.
+            
+               Isu lainnya adalah ketidakseimbangan antara daerah yang memiliki sumber daya lebih besar dengan daerah yang lebih kecil, yang membuat penerapan BLUD tidak selalu merata. Daerah dengan anggaran terbatas sering kali kesulitan membentuk dan menjalankan BLUD secara optimal.
+            
+            <h2>5. Perkembangan Terkini (2020-an)</h2>
+               Pada awal dekade 2020-an, penerapan BLUD semakin ditekankan oleh pemerintah pusat, terutama dengan fokus pada digitalisasi pelayanan publik. Banyak BLUD, terutama di sektor kesehatan, mulai mengintegrasikan teknologi informasi untuk mempercepat layanan dan meningkatkan akurasi data.
+            
+               Regulasi terbaru, seperti Permendagri No. 79 Tahun 2018 tentang Pedoman Pembentukan BLUD, juga memperbarui ketentuan terkait akuntabilitas, manajemen risiko, dan audit kinerja. Hal ini untuk memastikan bahwa BLUD tetap beroperasi sesuai dengan prinsip good governance.
+            
+               COVID-19 juga mendorong banyak BLUD di sektor kesehatan untuk beradaptasi lebih cepat dengan kebutuhan mendesak masyarakat. Rumah sakit dan puskesmas BLUD diberi peran penting dalam pengelolaan layanan darurat dan vaksinasi.
+            
+            Kesimpulan:
+            Secara keseluruhan, BLUD telah menjadi mekanisme penting dalam meningkatkan efisiensi layanan publik di Indonesia. Meskipun masih ada tantangan dalam hal manajemen dan akuntabilitas, BLUD menawarkan fleksibilitas yang dibutuhkan oleh unit-unit layanan publik untuk merespons kebutuhan masyarakat dengan lebih cepat dan efisien. Perkembangan lebih lanjut terutama terkait digitalisasi diharapkan dapat semakin memperkuat tata kelola BLUD di masa depan.
+        </p>
+    </div>
+
+    <script src="pts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+/* Gaya dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #93cec8; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya navbar */
+.navbar {
+    background-color: #59d6c9; 
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    background-color:  #59d6c9; 
+}
+
+
+.content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #005b96;
+}
+
+h2 {
+    color: #03396c;
+}
+
+
+form {
+    margin-top: 20px;
+    background-color: #f2f9ff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color:  #439f96; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #59d6c9; 
+}
+
+
+.thank-you {
+    margin-top: 20px;
+    padding: 15px;
+    background-color:  #8fccc6; 
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color:  #2d6a64; 
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+
+.fade-out {
+    opacity: 0;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
